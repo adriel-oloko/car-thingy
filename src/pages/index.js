@@ -87,7 +87,7 @@ export default function Home() {
 
 
 
-                    <div className="bg-gradient-to-b from-[#121212] to-75% to-black w-full p-4 min-h-[52vh] relative md:hidden">
+                    <div className="bg-gradient-to-b from-[#121212] to-75% to-black w-full p-4 min-h-[45vh] relative flex justify-center items-center md:hidden">
                         <div className="bg-gradient-to-b from-[#121212] to-[#12121200] w-full p-4 h-48 inset-x-0 absolute z-10 top-0"></div>
                         <div className="bg-gradient-to-t from-[#000] to-[#12121200] w-full p-4 h-48 inset-x-0 absolute z-10 bottom-0"></div>
 
@@ -96,21 +96,24 @@ export default function Home() {
 
                         <div className="absolute inset-y-0 border border-solid border-white/25 left-12"></div>
                         <div className="absolute inset-y-0 border border-solid border-white/25 right-12"></div>
-
-                        <h2 className="text-white font-bold relative z-10 text-center px-16 mt-24 ubuntu">Lorem Dolor Ipsum Sit Amet</h2>
-                        <p className="text-white text-[8px] z-10 text-center px-20 mx-auto absolute bottom-20 inset-x-0 -translate-x-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                        <Image src={"/image-removebg-preview (8).png"} className="absolute bottom-24 left-0" width={666} height={375} alt="" />
+                        
+                        <div className="">
+                            <h2 className="text-white font-bold relative z-10 text-center px-16 ubuntu">Lorem Dolor Ipsum Sit Amet</h2>
+                            <Image src={"/image-removebg-preview (8).png"} className="" width={666} height={375} alt="" />
+                            <p className="text-white text-[8px] z-10 text-center px-16 mx-auto -my-2 -translate-x-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                        </div>
                     </div>
 
                     <div className="h-fit relative md:hidden">
                         <Image src={"/Dark purple gradient background.jpeg"} className="" width={547} height={1094} alt="" />
-                        <div className="bg-gradient-to-b from-transparent to-[#07031a] w-full p-4 h-24 absolute bottom-0"></div>
+                        <div className="bg-gradient-to-b from-[#07031a] to-[#07031a] w-full p-4 h-12 absolute -bottom-4 z-20"></div>
 
                         <div className="flex flex-col gap-4 absolute top-1/4 -translate-y-1/4">
                             <Image src={"/logo.png"} className="size-12 mx-auto" width={512} height={512} alt="" />
                             <h2 className="text-xl font-bold text-center px-8">Lorem Dolor Ipsum Sit Amet</h2>
                         </div>
                     </div>
+
                     <div className="bg-[#07031a] w-full h-[75vh] flex justify-center items-center relative md:hidden">
                         <p className="font-bold ubuntu text-white/75 text-xl">Empty Space</p>
 

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -23,4 +24,30 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.ubuntu {
+    font-family: "Ubuntu", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+ }
+
+*, .roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#xw5fsxr {
+    min-height: calc(93svh - 3rem);
+    max-height: calc(93svh - 3rem);
+}
+
+#xw5fsxr {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#xw5fsxr > div {
 }

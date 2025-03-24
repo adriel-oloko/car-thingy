@@ -44,10 +44,26 @@ body {
     max-height: calc(93svh - 3rem);
 }
 
+@media only screen and (min-width: 768px) {
+    #xw5fsxr, #xw5fsxr > div {
+        min-height: calc(92svh - 3rem);
+        max-height: calc(92svh - 3rem);
+    }
+
+    #aw3rtft {
+        min-height: calc(86svh - 3rem);
+        max-height: calc(86svh - 3rem);
+    }
+}
+
 #xw5fsxr {
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #xw5fsxr > div {
+}
+
+::-webkit-scrollbar {
+	display: none;
 }

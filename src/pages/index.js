@@ -50,14 +50,13 @@ export default function Home() {
                 <section id="xw5fsxr" className="w-full relative overflow-scroll ">
                     <Image src={"/sata gra.png"} className="absolute animate-pulse top-[20%] left-12" width={11} height={13} alt="" />
                     <Image src={"/star gray.png"} className="absolute animate-pulse top-1/4 z-20 right-12" width={6} height={8} alt="" />
-                    <Image src={"/star.png"} className="absolute animate-pulse bottom-60 right-12" width={26} height={32} alt="" />
+                    <Image src={"/star.png"} className="absolute animate-pulse bottom-60 right-12 md:left-1/3 md:bottom-8" width={26} height={32} alt="" />
                     <Image src={"/star pu.png"} className="absolute animate-pulse bottom-72 -left-0.5 scale-125" width={13} height={17} alt="" />
-                    <Image src={"/star.png"} className="absolute animate-pulse bottom-64 -left-0 hidden" width={26} height={32} alt="" />
                     <Image src={"/star pu.png"} className="absolute animate-pulse scale-125 top-6 right-[33%]" width={13} height={17} alt="" />
 
                     <div className="w-full h-128 bg-contain bg-no-repeat bg-gradient-to-r from-[#010828] to-[#1e2f62] flex justify-center items-center md:justify-start">
-                        <Image src={"/2025-G-SUV-GAL-011-E-FE-DR.webp"} id="aw3rtft" className="absolute bottom-12 md:w-1/2 md:right-4 md:rounded-xl md:inset-y-4 md:h-full md:object-cover" width={1410} height={794} alt="" />
-                        <div className="bg-gradient-to-b from-transparent to-[#121212] w-full p-4 h-12 absolute bottom-[85px] hidden"></div>
+                        <Image src={"/2025-G-SUV-GAL-011-E-FE-DR.webp"} id="aw3rtft" className="absolute bottom-0 md:w-1/2 md:right-4 md:rounded-xl md:inset-y-4 md:h-full md:object-cover" width={1410} height={794} alt="" />
+                        <div className="bg-gradient-to-b from-transparent to-[#121212] w-full p-4 h-12 absolute bottom-0 md:hidden"></div>
 
                         <nav className="flex justify-between items-center p-5 md:px-12 absolute w-full top-0 border-b backdrop-blur-xs">
                             <Image src={"/logo.png"} className="size-6 md:size-10" width={512} height={512} alt="" />
